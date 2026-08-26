@@ -11,3 +11,15 @@ plt.xlabel("Group")
 plt.ylabel("Values")
 plt.title("Box Plot")
 plt.show()
+
+# using read_csv()
+
+import matplotlib.pyplot as plt
+import pandas as pd
+
+df = pd.read_csv("YOUR CSV FILE")
+plt.boxplot(df.GPA)
+plt.xlabel("Groups")
+plt.ylabel("GPA")
+plt.title("Box Plot")
+plt.show()
