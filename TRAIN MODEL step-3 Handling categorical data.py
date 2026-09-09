@@ -1,3 +1,5 @@
+#STEP-3 CONVERT CATEGORICAL DATA INTO NUMERIC USING LabelEncoder(LE) & One-Hot Encoder(OHE)
+
 #Convert Categorical data into Numeric using Label Encoder
 
 from sklearn.preprocessing import LabelEncoder
@@ -9,6 +11,7 @@ encoder = LabelEncoder()
 encoded_feature = encoder.fit_transform(categorical_feature)
 
 print("Encoded feature:",encoded_feature)
+
 
 #########################################################################
 
