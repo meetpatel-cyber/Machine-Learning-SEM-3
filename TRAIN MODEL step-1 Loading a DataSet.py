@@ -11,3 +11,6 @@ target_names = iris.target_names
 
 print("Feature Name:", feature_names)
 print("Target Name:", target_names)
+
+print("\nType of X is:",type(x))
+print("\n First 5 rows of x:\n",x[:5])

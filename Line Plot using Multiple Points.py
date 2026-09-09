@@ -1,4 +1,4 @@
-# Line Plot using Multiple Points using Matplotlib
+    # Line Plot using Multiple Points using Matplotlib
 
 import numpy as np
 import matplotlib.pyplot as plt

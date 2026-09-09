@@ -1,5 +1,5 @@
 #Convert Categorical data into Numeric using Label Encoder
-'''
+
 from sklearn.preprocessing import LabelEncoder
 
 categorical_feature = ['cat','dog','dog','cat','bird']
@@ -9,7 +9,7 @@ encoder = LabelEncoder()
 encoded_feature = encoder.fit_transform(categorical_feature)
 
 print("Encoded feature:",encoded_feature)
-'''
+
 #########################################################################
 
 #Convert Categorical data into Numeric using One-Hot Encoder
