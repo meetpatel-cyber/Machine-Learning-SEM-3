@@ -1,4 +1,4 @@
-#STEP-5 Predict the Accuracy
+#STEP-5,6 Make Prediction & Evalute Accuracy
 
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
